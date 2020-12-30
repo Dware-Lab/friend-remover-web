@@ -29,6 +29,9 @@ a:hover{
 .bg-primary-light{
   background: $bg-primary-light;
 }
+.bg-black{
+  background: #000000;
+}
 
 //utils
 .v-centered{
@@ -151,6 +154,6 @@ section .section-desc{
     right: -150px;
   }
   .main-header h1{
-    font-size: 4rem;
+    font-size: 3.4rem;
   }
 }
