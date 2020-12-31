@@ -32,11 +32,6 @@ a:hover {
   justify-content: center;
 }
 
-.text-large {
-  font-size: 2.6rem;
-  font-weight: 600;
-}
-
 .lh-38 {
   line-height: 38px;
 }
@@ -67,7 +62,7 @@ a:hover {
 
 .main-header h1 {
   font-weight: 800;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
 }
 
 .main-header p {
@@ -153,6 +148,47 @@ section .section-desc {
 
   .main-header h1 {
     font-size: 3.4rem;
+  }
+
+  .text-large {
+    font-size: 2.6rem;
+    font-weight: 600;
+  }
+
+  .process-image {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .navbar {
+    height: auto;
+    position: relative;
+  }
+
+  .main-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .main-header p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .process-container {
+    max-width: 100%;
+    overflow-x: scroll;
+  }
+
+  .process-image {
+    width: 800px;
+  }
+
+  section .section-title {
+    font-size: 1.4rem;
+  }
+
+  section .section-desc {
+    font-size: 1rem;
   }
 }
 
